@@ -8,7 +8,7 @@ public class ValidManagerTestCase  extends BaseTest{
 	public static void main(String[] args) throws IOException, EncryptedDocumentException, InterruptedException {
 		
 		BaseTest bt = new BaseTest();
-		bt.openBrowser();
+		bt.setUp();
 		
 		Flib flib = new Flib();
 		
@@ -29,7 +29,7 @@ public class ValidManagerTestCase  extends BaseTest{
 		worklib.handleConfirmationPopup();
 		
 		Thread.sleep(2000);
-		bt.closeBrowser();
+		bt.tearDown();
 	}
 
 }

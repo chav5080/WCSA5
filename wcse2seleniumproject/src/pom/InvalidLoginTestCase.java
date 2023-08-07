@@ -9,7 +9,7 @@ public class InvalidLoginTestCase extends BaseTest {
 	public static void main(String[] args) throws IOException, EncryptedDocumentException, InterruptedException {
 		// launch the browsers & application
 		BaseTest bt = new BaseTest();
-		bt.openBrowser();
+		bt.setUp();
 		
 		//perform invalid Login
 		// go into the login page

@@ -11,13 +11,11 @@ import org.openqa.selenium.firefox.FirefoxDriver;
 public class BaseTest extends Flib implements IautoConstant{
 
 	static WebDriver driver;
-	public void openBrowser() throws IOException
+	public void setUp() throws IOException
 	{
 		Flib flib = new Flib();
-		String browserValue = flib.readExcelData(PROP_PATH, "Browser", 0, 0);
-		String url = flib.readExcelData(PROP_PATH, "Url", 0, 0);
-		//String browserValue = flib.readPropertyData(PROP_PATH,"Browser");
-		//String url = flib.readPropertyData(PROP_PATH,"Url");
+		String browserValue = flib.readPropertyData(PROP_PATH,"Browser");
+		String url = flib.readPropertyData(PROP_PATH,"Url");
 
 		if(browserValue.equalsIgnoreCase("chrome"))
 		{
@@ -45,7 +43,7 @@ public class BaseTest extends Flib implements IautoConstant{
 		driver.get(url);
 	}
 
-	public void closeBrowser()
+	public void tearDown()
 	{
 		driver.quit();
 	}

@@ -1,45 +1,133 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="0" total="8" passed="8" failed="0" skipped="0">
+<testng-results ignored="0" total="2" passed="2" failed="0" skipped="0">
   <reporter-output>
+    <line>
+      <![CDATA[BeforeSuiteAnnotation]]>
+    </line>
+    <line>
+      <![CDATA[BeforeTestAnnotation]]>
+    </line>
+    <line>
+      <![CDATA[BeforeClassAnnotation]]>
+    </line>
+    <line>
+      <![CDATA[BeforeMethodAnnotation]]>
+    </line>
+    <line>
+      <![CDATA[TestAnnotation]]>
+    </line>
+    <line>
+      <![CDATA[AfterMethodAnnotation]]>
+    </line>
+    <line>
+      <![CDATA[BeforeMethodAnnotation]]>
+    </line>
+    <line>
+      <![CDATA[TestAnnotation2]]>
+    </line>
+    <line>
+      <![CDATA[AfterMethodAnnotation]]>
+    </line>
+    <line>
+      <![CDATA[AfterClassAnnotation]]>
+    </line>
+    <line>
+      <![CDATA[AfterTestAnnotation]]>
+    </line>
+    <line>
+      <![CDATA[AfterSuiteAnnotation]]>
+    </line>
   </reporter-output>
-  <suite started-at="2023-07-24T11:09:50 IST" name="Default suite" finished-at="2023-07-24T11:09:51 IST" duration-ms="303">
+  <suite started-at="2023-07-31T09:45:10 IST" name="Default suite" finished-at="2023-07-31T09:45:10 IST" duration-ms="45">
     <groups>
     </groups>
-    <test started-at="2023-07-24T11:09:50 IST" name="Default test" finished-at="2023-07-24T11:09:51 IST" duration-ms="303">
-      <class name="testNGAnnotation_flags.Flag4">
-        <test-method signature="d()[pri:0, instance:testNGAnnotation_flags.Flag4@4b741d6d]" started-at="2023-07-24T11:09:51 IST" name="d" finished-at="2023-07-24T11:09:51 IST" duration-ms="19" status="PASS">
+    <test started-at="2023-07-31T09:45:10 IST" name="Default test" finished-at="2023-07-31T09:45:10 IST" duration-ms="45">
+      <class name="testNGAnnotation_flags.AnnotationsClass">
+        <test-method is-config="true" signature="method6()[pri:0, instance:testNGAnnotation_flags.AnnotationsClass@5ddeb7cb]" started-at="2023-07-31T09:45:10 IST" name="method6" finished-at="2023-07-31T09:45:10 IST" duration-ms="11" status="PASS">
           <reporter-output>
+            <line>
+              <![CDATA[BeforeSuiteAnnotation]]>
+            </line>
           </reporter-output>
-        </test-method> <!-- d -->
-        <test-method signature="e()[pri:0, instance:testNGAnnotation_flags.Flag4@4b741d6d]" started-at="2023-07-24T11:09:51 IST" name="e" finished-at="2023-07-24T11:09:51 IST" duration-ms="3" status="PASS">
+        </test-method> <!-- method6 -->
+        <test-method is-config="true" signature="method8()[pri:0, instance:testNGAnnotation_flags.AnnotationsClass@5ddeb7cb]" started-at="2023-07-31T09:45:10 IST" name="method8" finished-at="2023-07-31T09:45:10 IST" duration-ms="1" status="PASS">
           <reporter-output>
+            <line>
+              <![CDATA[BeforeTestAnnotation]]>
+            </line>
           </reporter-output>
-        </test-method> <!-- e -->
-        <test-method signature="f()[pri:0, instance:testNGAnnotation_flags.Flag4@4b741d6d]" started-at="2023-07-24T11:09:51 IST" name="f" finished-at="2023-07-24T11:09:51 IST" duration-ms="3" status="PASS">
+        </test-method> <!-- method8 -->
+        <test-method is-config="true" signature="method4()[pri:0, instance:testNGAnnotation_flags.AnnotationsClass@5ddeb7cb]" started-at="2023-07-31T09:45:10 IST" name="method4" finished-at="2023-07-31T09:45:10 IST" duration-ms="0" status="PASS">
           <reporter-output>
+            <line>
+              <![CDATA[BeforeClassAnnotation]]>
+            </line>
           </reporter-output>
-        </test-method> <!-- f -->
-        <test-method signature="i()[pri:0, instance:testNGAnnotation_flags.Flag4@4b741d6d]" started-at="2023-07-24T11:09:51 IST" name="i" finished-at="2023-07-24T11:09:51 IST" duration-ms="2" status="PASS">
+        </test-method> <!-- method4 -->
+        <test-method is-config="true" signature="method3()[pri:0, instance:testNGAnnotation_flags.AnnotationsClass@5ddeb7cb]" started-at="2023-07-31T09:45:10 IST" name="method3" finished-at="2023-07-31T09:45:10 IST" duration-ms="0" status="PASS">
           <reporter-output>
+            <line>
+              <![CDATA[BeforeMethodAnnotation]]>
+            </line>
           </reporter-output>
-        </test-method> <!-- i -->
-        <test-method signature="k()[pri:1, instance:testNGAnnotation_flags.Flag4@4b741d6d]" started-at="2023-07-24T11:09:51 IST" name="k" finished-at="2023-07-24T11:09:51 IST" duration-ms="9" status="PASS">
+        </test-method> <!-- method3 -->
+        <test-method signature="method1()[pri:0, instance:testNGAnnotation_flags.AnnotationsClass@5ddeb7cb]" started-at="2023-07-31T09:45:10 IST" name="method1" finished-at="2023-07-31T09:45:10 IST" duration-ms="5" status="PASS">
           <reporter-output>
+            <line>
+              <![CDATA[TestAnnotation]]>
+            </line>
           </reporter-output>
-        </test-method> <!-- k -->
-        <test-method signature="p()[pri:1, instance:testNGAnnotation_flags.Flag4@4b741d6d]" started-at="2023-07-24T11:09:51 IST" name="p" finished-at="2023-07-24T11:09:51 IST" duration-ms="5" status="PASS">
+        </test-method> <!-- method1 -->
+        <test-method is-config="true" signature="method2()[pri:0, instance:testNGAnnotation_flags.AnnotationsClass@5ddeb7cb]" started-at="2023-07-31T09:45:10 IST" name="method2" finished-at="2023-07-31T09:45:10 IST" duration-ms="1" status="PASS">
           <reporter-output>
+            <line>
+              <![CDATA[AfterMethodAnnotation]]>
+            </line>
           </reporter-output>
-        </test-method> <!-- p -->
-        <test-method signature="m()[pri:2, instance:testNGAnnotation_flags.Flag4@4b741d6d]" started-at="2023-07-24T11:09:51 IST" name="m" finished-at="2023-07-24T11:09:51 IST" duration-ms="3" status="PASS">
+        </test-method> <!-- method2 -->
+        <test-method is-config="true" signature="method3()[pri:0, instance:testNGAnnotation_flags.AnnotationsClass@5ddeb7cb]" started-at="2023-07-31T09:45:10 IST" name="method3" finished-at="2023-07-31T09:45:10 IST" duration-ms="1" status="PASS">
           <reporter-output>
+            <line>
+              <![CDATA[BeforeMethodAnnotation]]>
+            </line>
           </reporter-output>
-        </test-method> <!-- m -->
-        <test-method signature="z()[pri:3, instance:testNGAnnotation_flags.Flag4@4b741d6d]" started-at="2023-07-24T11:09:51 IST" name="z" finished-at="2023-07-24T11:09:51 IST" duration-ms="2" status="PASS">
+        </test-method> <!-- method3 -->
+        <test-method signature="method10()[pri:0, instance:testNGAnnotation_flags.AnnotationsClass@5ddeb7cb]" started-at="2023-07-31T09:45:10 IST" name="method10" finished-at="2023-07-31T09:45:10 IST" duration-ms="1" status="PASS">
           <reporter-output>
+            <line>
+              <![CDATA[TestAnnotation2]]>
+            </line>
           </reporter-output>
-        </test-method> <!-- z -->
-      </class> <!-- testNGAnnotation_flags.Flag4 -->
+        </test-method> <!-- method10 -->
+        <test-method is-config="true" signature="method2()[pri:0, instance:testNGAnnotation_flags.AnnotationsClass@5ddeb7cb]" started-at="2023-07-31T09:45:10 IST" name="method2" finished-at="2023-07-31T09:45:10 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[AfterMethodAnnotation]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- method2 -->
+        <test-method is-config="true" signature="method5()[pri:0, instance:testNGAnnotation_flags.AnnotationsClass@5ddeb7cb]" started-at="2023-07-31T09:45:10 IST" name="method5" finished-at="2023-07-31T09:45:10 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[AfterClassAnnotation]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- method5 -->
+        <test-method is-config="true" signature="method9()[pri:0, instance:testNGAnnotation_flags.AnnotationsClass@5ddeb7cb]" started-at="2023-07-31T09:45:10 IST" name="method9" finished-at="2023-07-31T09:45:10 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[AfterTestAnnotation]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- method9 -->
+        <test-method is-config="true" signature="method7()[pri:0, instance:testNGAnnotation_flags.AnnotationsClass@5ddeb7cb]" started-at="2023-07-31T09:45:10 IST" name="method7" finished-at="2023-07-31T09:45:10 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[AfterSuiteAnnotation]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- method7 -->
+      </class> <!-- testNGAnnotation_flags.AnnotationsClass -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>
